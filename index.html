@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TWITTER</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <section id="page">
+      <div id="pageHeader">
+        <div class="header-div">Twitter</div>
+      </div>
+
+      <nav id="mainNav">
+        <div id="pageButtonAllTwits">
+          <button
+            id="buttonAllTwits"
+            onclick="window.location.href = 'index2.html';"
+          >
+            Все твиты
+          </button>
+        </div>
+      </nav>
+      <main id="pageMain">
+        <div class="div-reg">
+          <p class="textReg">Регистрация</p>
+        </div>
+        <form class="form-reg-base" action="">
+          <div class="form-reg">
+            <div class="form-reg-name">
+              <label for="name">Ваше имя</label>
+              <input id="name" required type="text" />
+            </div>
+
+            <div class="form-reg-mail">
+              <label for="mail">Ваша почта</label>
+              <input id="mail" required type="text" />
+            </div>
+            <div class="input-form-button">
+              <button id="button-reg">Зарегистрироваться</button>
+            </div>
+          </div>
+        </form>
+      </main>
+      <footer id="pageFooter"></footer>
+    </section>
+  </body>
+</html>
